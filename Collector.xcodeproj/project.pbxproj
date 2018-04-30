@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		0A860D2A20977B26000DEC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A860D2920977B26000DEC25 /* AppDelegate.swift */; };
-		0A860D2C20977B26000DEC25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A860D2B20977B26000DEC25 /* ViewController.swift */; };
 		0A860D2F20977B26000DEC25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A860D2D20977B26000DEC25 /* Main.storyboard */; };
 		0A860D3220977B26000DEC25 /* Collector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0A860D3020977B26000DEC25 /* Collector.xcdatamodeld */; };
 		0A860D3420977B28000DEC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A860D3320977B28000DEC25 /* Assets.xcassets */; };
 		0A860D3720977B28000DEC25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A860D3520977B28000DEC25 /* LaunchScreen.storyboard */; };
+		0A860D3F209789DD000DEC25 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A860D3E209789DD000DEC25 /* AddItemViewController.swift */; };
+		0A860D4120979A13000DEC25 /* CollectorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A860D4020979A13000DEC25 /* CollectorTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A860D2620977B26000DEC25 /* Collector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A860D2920977B26000DEC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A860D2B20977B26000DEC25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A860D2E20977B26000DEC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A860D3120977B26000DEC25 /* Collector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Collector.xcdatamodel; sourceTree = "<group>"; };
 		0A860D3320977B28000DEC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A860D3620977B28000DEC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A860D3820977B28000DEC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A860D3E209789DD000DEC25 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		0A860D4020979A13000DEC25 /* CollectorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectorTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 		0A860D2820977B26000DEC25 /* Collector */ = {
 			isa = PBXGroup;
 			children = (
+				0A860D3E209789DD000DEC25 /* AddItemViewController.swift */,
 				0A860D2920977B26000DEC25 /* AppDelegate.swift */,
-				0A860D2B20977B26000DEC25 /* ViewController.swift */,
+				0A860D4020979A13000DEC25 /* CollectorTableViewController.swift */,
 				0A860D2D20977B26000DEC25 /* Main.storyboard */,
 				0A860D3320977B28000DEC25 /* Assets.xcassets */,
 				0A860D3520977B28000DEC25 /* LaunchScreen.storyboard */,
@@ -139,8 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A860D3220977B26000DEC25 /* Collector.xcdatamodeld in Sources */,
-				0A860D2C20977B26000DEC25 /* ViewController.swift in Sources */,
 				0A860D2A20977B26000DEC25 /* AppDelegate.swift in Sources */,
+				0A860D3F209789DD000DEC25 /* AddItemViewController.swift in Sources */,
+				0A860D4120979A13000DEC25 /* CollectorTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
